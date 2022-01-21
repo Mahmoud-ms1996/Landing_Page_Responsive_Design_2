@@ -27,5 +27,12 @@ $(function(){
         // Show Div Connected With This link
         $('.' + $(this).data('class')).show();
     });
-
+    
+    // Scrolling by id
+    $("a").on('click', function(event){
+        
+        $('html, body').animate({
+            scrollTop: $($.attr(this,'href')).offset().top
+        }, 600);
+    })
 });
