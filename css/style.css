@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 /* Start Global Rules */
 body{
     font-family: 'Open Sans', sans-serif;
